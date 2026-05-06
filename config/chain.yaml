@@ -1,0 +1,27 @@
+ethereum:
+  rpcUrl:
+    - "https://ethereum-sepolia.gateway.tatum.io"
+    - "https://eth-sepolia.g.alchemy.com/v2/demo"
+  ibcTransferContract: "0x4c451Ccf7c9D5525a1f938d1cD2551Cb92371e81"
+bsc:
+  rpcUrl:
+    - "https://bsc-testnet-rpc.publicnode.com"
+    # - "http://bsc-mainnet.zhanming.com/v1/jsonrpc/019b3608-258e-7bfd-95d7-ccbe11cc914a"
+  ibcTransferContract: "0x9662961C301e6a90BBb76F4eF52A5fe908c69879"
+lbe:
+  rpcUrl:
+    - "10.40.92.61:9090"
+tron:
+  rpcUrl:
+    - "https://nile.trongrid.io"
+  grpcUrl:
+    - "grpc.nile.trongrid.io:50051"
+    # - "10.40.92.42:50051@key(019b3608-258e-7bfd-95d7-ccbe11cc914a)"
+    # - "open-grpc-uat.zmgo.app:443"
+    # - "10.40.92.52:31104@key(019b3608-258e-7bfd-95d7-ccbe11cc914a)"
+    # - "open-grpc-dev.zhanming.com:443@key(019b3608-258e-7bfd-95d7-ccbe11cc914a)"
+  ibcTransferContract: "TYqH3CeVcpaD4gXMXcHRvQ49Ca5v1CrGeC"
+solana:
+  rpcUrl:
+    - "https://solana-devnet.g.alchemy.com/v2/Cg34CI8-4V6K5DbWDqpqUI1eohrs1V8G"
+  ibcTransferContract: "AMq7r3dFg8DusZWjmyeQsBgYteuik3V1BmPyyiFZsnhB"

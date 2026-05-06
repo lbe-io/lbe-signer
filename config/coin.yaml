@@ -1,0 +1,14 @@
+coinType:
+  - usdt: 1
+coinSymbol:
+  - 1: "usdt"
+coinGecko:
+  proxy: "http://127.0.0.1:9674"
+  url: "https://api.coingecko.com/api/v3"
+  apiKeyName: "x-cg-demo-api-key"
+  apiKeyValue: "CG-7kRJhV6X4e9vBgLRuEogSwqH"
+  currency:
+    - "hkd"
+    #- "cny"
+  ids:
+    - usdt: "tether"

@@ -1,0 +1,16 @@
+# URI for database connection, leave empty if using address and credential settings directly
+uri: ''
+# List of MongoDB server addresses
+address: [10.40.92.106]
+# Name of the database
+database: lbe_scan_dev
+# Username for database authentication
+username:
+# Password for database authentication
+password:
+# Maximum number of connections in the connection pool
+maxPoolSize: 100
+# Maximum number of retry attempts for a failed database connection
+maxRetry: 10
+# Extend DB Slice
+

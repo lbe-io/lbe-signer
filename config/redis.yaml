@@ -1,0 +1,13 @@
+# Whether to use Redis in cluster mode.
+clusterMode: false
+# List of Redis server addresses (host:port).
+#address: [ 10.40.92.203:6379 ]
+address: [ 10.40.92.54:30379 ]
+# Username for Redis authentication (Redis 6 ACL).
+username: ''
+# Password for Redis authentication.
+password: 123000
+# Database number to connect to, for non-cluster mode.
+db: 1
+# Maximum number of retries for a command.
+maxRetry: 10

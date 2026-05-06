@@ -1,0 +1,7 @@
+api:
+  # Listening IP; 0.0.0.0 means both internal and external IPs are listened to, default is recommended
+  listenIP: 10.40.91.10
+  # Listening ports; if multiple are configured, multiple instances will be launched, must be consistent with the number of prometheus.ports
+  ports: 10013
+  # Swagger for api doc
+  swagger: true
